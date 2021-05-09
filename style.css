@@ -55,12 +55,11 @@ header h3 {
 
 
 .my-custom-card {
-    display: inline-block;
     margin: 20px;
-    background-color: rgba(0,0,0,0.5);
-    width: 450px;
+    background-color: rgba(100, 0, 0, 0.7);
+    max-width: 450px;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.2);
 }
 
 .my-custom-card-header {
@@ -68,8 +67,6 @@ header h3 {
 }
 
 .my-custom-card img{
-    max-width: 450px;
-    max-height: 300px;
-    border-top: 5px solid rgb(100, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
     border-radius: 0px 0px 20px 20px;
 }
